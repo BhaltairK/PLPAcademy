@@ -26,6 +26,22 @@ Below are some important commands in Git
 - git add
 - git commit -m"commit message"
 - git push
-- git status
-
+- git status - to check the status of your repository
+- git rm - to remove added files
 * commit message above pu in a different way is the message or text that you want to write or you want to appear.
+ 
+#FIRST GIT LINKING TO GITHUB
+git config --global --list (to check the list)
+git config --global user.name "pass in your GitHub username"
+git config --global user.email "pass in your GitHub email"
+git init
+git add
+git commit -m "commit message"
+git remote add origin link_to_your_repository
+git push -u branchName (either master or main)
+
+#SECOND PUSH
+git add . (remember the fullstop or period at the end)
+git commit
+git push
+
