@@ -1,0 +1,31 @@
+HOW TO CREATE AND ACCESS FILES AND FOLDERS IN GITBASH
+
+# Change to the desired drive using the "cd" command e.g
+cd F:/
+
+# Create a directory using the "mkdir" command e.g
+mkdir PLP_Coding_Tutorial_Files
+
+# Create a file using the selected Gitbash default IDE. It will most likely be a vim filename or vi filename e.g.
+vi hello.py
+
+# Once inside the editor, press insert to edit. This is achieved through pressing the "i" button i.e.
+Press ([i]insert)
+
+# After adding the file, save and quit the editor i.e.
+Press Esc:wq([w]write)([q]quit)
+
+# If you make a mistake in the editor and you cannot use it or you cannot quit, you can refresh it by clicking the "q" button followed by the "!" i.e.
+Press ([q!]quit!)
+
+# When creating a python file in vim, you must include the following
+	#!/usr/bin/python3
+Below are some important commands in Git
+- git config --global user.name or user.email
+- git init
+- git add
+- git commit -m"commit message"
+- git push
+- git status
+
+* commit message above pu in a different way is the message or text that you want to write or you want to appear.
